@@ -43,7 +43,7 @@ input {
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     h1 {font-size: 2rem;}
     input {width: 20%;}
     button {width: 40%;}
