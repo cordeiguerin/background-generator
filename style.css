@@ -47,17 +47,15 @@ input[type="color"] {
 }
 
 input[type="radio"] {
-    display: none;
     width: 1%;
     height: 1%;
 }
 
 input[type="range"] {
-    display: none;
     vertical-align: text-bottom;
 }
 
-select {
+div.linear div.radial {
     display: none;
 }
 
