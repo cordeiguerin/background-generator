@@ -55,7 +55,7 @@ input[type="range"] {
     vertical-align: text-bottom;
 }
 
-div.linear div.radial {
+div.linear, div.radial {
     display: none;
 }
 
