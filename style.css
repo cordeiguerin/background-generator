@@ -38,11 +38,16 @@ button {
     font-weight: bolder;
 }
 
-input {
+input[type="color"] {
     width: 10%;
     height: 10%;
     padding: 0;
     border-radius: 5px;
+}
+
+input[type="radio"] {
+    width: 1%;
+    height: 1%;
 }
 
 @media screen and (max-width: 600px) {
