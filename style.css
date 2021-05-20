@@ -47,18 +47,18 @@ input[type="color"] {
 }
 
 input[type="radio"] {
-    display: hidden;
+    display: none;
     width: 1%;
     height: 1%;
 }
 
 input[type="range"] {
-    display: hidden;
+    display: none;
     vertical-align: text-bottom;
 }
 
 select {
-    display: hidden;
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
