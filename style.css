@@ -61,6 +61,7 @@ div.linear, div.radial {
 
 @media screen and (max-width: 600px) {
     h1 {font-size: 1rem;}
-    input {width: 20%;}
+    label {font-size: 0.75rem;}
+    input {width: 30%;}
     button {width: 40%;}
 }
