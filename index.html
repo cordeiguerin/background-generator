@@ -10,10 +10,20 @@
 </head>
 <body id="gradient">
     <h1>BACKGROUND <br> GENERATOR</h1>
-
+    
+    <!--  Colour inputs    -->
     <input type="color" name="color1" id="color1" value="#00ff00">
     <input type="color" name="color1" id="color2" value="#00ffff">
     <br><br>
+    
+    <!--   Radio Inputs - linear or radial gradient?   -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <br><br>
+    
+    <!--   Dropdown (Select) Input for direction of lineal gradients   -->
     <label for="direction">Choose a Direction:</label>
     <select name="direction" id="direction">
         <option value="bottom">Vertical</option>
@@ -22,7 +32,33 @@
         <option value="bottom right">Diagonal - bottom right</option>
     </select>
     <br><br>
-    <button id="random">Random</button>
+    
+    <!--   Radio Inputs - radial gradient - circle or ellipse?   -->
+    <input type="radio" id="circle" name="shape" value="circle">
+    <label for="circle">Circle</label><br>
+    <input type="radio" id="ellipse" name="shape" value="ellipse">
+    <label for="ellipse">Ellipse</label><br>
+    <br><br>
+    
+    <!--   Dropdown (Select) Input for the size keywords of radial gradients   -->
+    <label for="size">Choose a Direction:</label>
+    <select name="size" id="size">
+        <option value="closest-side">Closest-side</option>
+        <option value="farthest-side">Farthest-side</option>
+        <option value="closest-corner">Closest-corner</option>
+        <option value="farthest-corner">Farthest-corner</option>
+    </select>
+    <br><br>
+    
+    <!--   Range inputs for positioning the radial gradient shape  -->
+    <label for="x">Horizontal positioning (between 0% and 100%):</label>
+    <input type="range" id="x" name="position" min="0" max="100">
+    <label for="y">Vertical positioning (between 0% and 100%):</label>
+    <input type="range" id="y" name="position" min="0" max="100">
+    <br><br>
+    
+    <!--   Random colour selection button   -->
+    <button id="random">Random Colour Selection</button>
     <br><br>
     <h2>Current CSS Background</h2>
     <h3></h3>
