@@ -50,6 +50,10 @@ input[type="radio"] {
     height: 1%;
 }
 
+input[type="range"] {
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 600px) {
     h1 {font-size: 1rem;}
     input {width: 20%;}
